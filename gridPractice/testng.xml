@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteA" parallel ="tests">
+<test name="Chrome1">
+   <parameter name="browser" value="chrome" />
+      <classes>
+         <class name="suiteA.TestGridClass" />
+      </classes>
+   </test>
+<test name="Chrome2">
+   <parameter name="browser" value="chrome" />
+      <classes>
+         <class name="suiteA.TestGridClass" />
+      </classes>
+   </test>
+   <test name="Chrome3">
+   <parameter name="browser" value="chrome" />
+      <classes>
+         <class name="suiteA.TestGridClass" />
+      </classes>
+   </test>
+ 
+<!-- test name="TestA">
+    <classes>
+        <class name="suiteA.TestA" ></class>  
+    </classes>
+</test> 
+
+<test name="TestB">
+    <classes>
+        <class name="suiteA.TestB" ></class>  
+    </classes>
+</test>-->
+
+</suite>
